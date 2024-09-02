@@ -4,7 +4,7 @@ This collection showcases how to integrate, use, and configure BlockSuite across
 
 ## Install
 
-These examples are built and maintained independently from the packages in the monorepo. It's a standalone [workspace](https://pnpm.io/workspaces) that installs BlockSuite canary versions published on npm, instead of using the `workspace:*` reference.
+These examples are built and maintained independently from the packages in [BlockSuite repo](https://github.com/toeverything/blocksuite).
 
 ```sh
 pnpm install
@@ -29,7 +29,3 @@ pnpm dev example-name
 - [preact-basic](./preact-basic/)
 - [svelte-basic](./svelte-basic/)
 - [solid-basic](./solid-basic/)
-
-## Contribution
-
-Contributions of more examples are welcome! If you are a new contributor, please sign the [CLA.md](../.github/CLA.md) in your pull request.
