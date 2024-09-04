@@ -15,7 +15,7 @@ export function setRoom(id: string) {
 export function initCollection(id = 'blocksuite-example') {
   const schema = new Schema().register(AffineSchemas);
   const collection = new DocCollection({ schema, id });
-
+  collection.meta.initialize();
   return collection;
 }
 
